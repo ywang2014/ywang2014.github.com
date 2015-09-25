@@ -18,31 +18,10 @@
   
   期望城市： 上海、深圳、北京
   
-### 项目经验
-  五子棋人机对战游戏(C/C++)
+## 详细资料
+[个人简历](http://ywang2014.github.io/)
   
-  电影推荐系统(C++)
-  
-  图书馆管理系统(PHP/HTML)
-  
-### 技能
-  C 
-  
-  C++
-  
-  Java
-  
-  Python
-  
-  Matlab
-  
-  数据分析：R
-  
-  Web开发： PHP
-  
-  (代码量都在千行以上！！)
-  
-### 阅读的书籍
+## 阅读的书籍
   《C语音程序设计(2th)》Brian W. Kernighan & Dennis M. Ritchie
   
   《C++ Primer Plus(6th中文版)》Stephen Prata
