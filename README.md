@@ -14,7 +14,7 @@
   
   期望职位： C/C++研发
   
-  期望薪资： 10k~20K
+  期望薪资： 15k~20K
   
   期望城市： 上海、深圳、北京
   
@@ -22,14 +22,23 @@
 [个人简历](http://ywang2014.github.io/)
   
 ## 阅读的书籍
-  《C语音程序设计(2th)》Brian W. Kernighan & Dennis M. Ritchie
+  [《C语音程序设计(2th)》]()Brian W. Kernighan & Dennis M. Ritchie
   
-  《C++ Primer Plus(6th中文版)》Stephen Prata
+  [《数据结构与算法分析---C语言描述》](https://github.com/ywang2014/Rookie/blob/master/Blogs/DS%26A/DS%26%26AA-Weiss.md)Mark Allen Weiss
   
-  《代码大全(2th)》Steve McConnell
+  [《C++ Primer Plus(6th中文版)》](https://github.com/ywang2014/ProgramLearning/tree/master/C%2B%2B/C%2B%2Bprimer)Stephen Prata
   
-  《数据结构与算法分析---C语言描述》Mark Allen Weiss
+  [《C专家编程》](https://github.com/ywang2014/ProgramLearning/tree/master/C-algorithm/c_experts)Peter Van Der Linden 
   
+  [《代码大全(2th)》](https://github.com/ywang2014/ProgramLearning/tree/master/C%2B%2B/CodeComplete)Steve McConnell
+ 
+  [《C++程序设计语言》](https://github.com/ywang2014/ProgramLearning/tree/master/C%2B%2B/The_C%2B%2B_Programming_language)Bjarne Stroustrup
+  
+  [《剑指offer》](https://github.com/ywang2014/ProgramLearning/tree/master/C%2B%2B/swordOffer/book)何海涛
+  
+  [《编程之美》]()《编程之美》小组
+  
+##[项目](https://github.com/ywang2014/ProgramLearning/tree/master/Project)
 ## 感谢您花宝贵的时间阅读我的简历，期待您的工作邀约！
 ### 谢谢！
   
