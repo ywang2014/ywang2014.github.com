@@ -24,6 +24,8 @@
 ## 阅读的书籍
   [《C语音程序设计(2th)》]()Brian W. Kernighan & Dennis M. Ritchie
   
+  [《高质量C++编程指南》]()林锐
+  
   [《数据结构与算法分析---C语言描述》](https://github.com/ywang2014/Rookie/blob/master/Blogs/DS%26A/DS%26%26AA-Weiss.md)Mark Allen Weiss
   
   [《C++ Primer Plus(6th中文版)》](https://github.com/ywang2014/ProgramLearning/tree/master/C%2B%2B/C%2B%2Bprimer)Stephen Prata
