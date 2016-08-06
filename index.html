@@ -1,41 +1,77 @@
 <!doctype html>
 <html lang="zh">
 	<head>
-		<title> Resume </title>
+		<title> 个人简历 </title>
 		<meta charset="UTF-8">
 		<style>
 			a { 
-				color: #0000ff; 
+				color: #000088; 
 				text-decoration: none; 
-				} 
+			} 
 			a:visited { 
 				color: #0000ff; 
 				text-decoration: none; 
-				} 
+			} 
 			a:hover { 
-				color: #999999; 
-				text-decoration: underline; 
-				} 
+				color: #00ff00; 
+				text-decoration: none; 
+			} 
+				
+			#topic{
+				padding-top: 10px;
+			}
+			
+			#tit{
+				width:100px;
+				vertical-align: top;
+			}
+			
+			#title{
+				font-size: 12pt;
+				font-weight: bold;
+			}
+			
+			#tab{
+				width: 100%;
+			}
+			
+			#tab2{
+				width: 100%;
+				margin-bottom: 15px;
+				border-bottom: dashed 1px #ccc;
+				padding-left: 50px;
+			}
+			
+			#t{
+				padding-left: 50px;
+			}
+			
+			#t2{
+				padding-left: 75px;
+			}
 		</style>
 	</head>
 
 	<body style="margin:0px auto;width:800px;">
-		<header>
-			<h1 style="color:#e8e8e8; font-size: 30px; font-weight:bold; text-align:center; text-shadow: 2px 2px 2px #333, 0px 0px 5px #666; margin-top:15px;"> 王勇 </h1>
-			<section style="padding:2px 0px;">
+		<header align = "center">
+			<span style="font-size: 32pt; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; line-height: 1.15;">
+				王勇 
+			</span>
+			<!--	
+				<h1 style="color:#e8e8e8; font-size: 48px; font-weight:bold; text-align:center; text-shadow: 2px 2px 2px #333, 0px 0px 5px #666; margin-top:15px;"> 王勇 </h1>
+			-->
 				<hr/>
-			</section>
 		</header>
 		
 		<article style="padding:10px 0px;">
 			<section>
-				<table style="width:100%">
+				<table id = "tab">
 					<tr>
-						<td class="item-title"> 电话号码：</td>
-						<td class="item-content"> 185-5207-8917 </td>
+						<td class="item-title"> 电话：</td>
+						<td class="item-content"> (+86)185-5207-8917 </td>
 						<td class="item-title"> 邮箱：</td>
 						<td class="item-content">
-							<a title="给我发邮件" href= "mailto: ywangsh2011@163.com" > ywangsh2011@163.com </a>
+							<a title="给我发邮件吧" href= "mailto: ywangsh2011@163.com" > ywangsh2011@163.com </a>
 						</td>
 					</tr>
 					<tr>
@@ -46,167 +82,256 @@
 					</tr>
 					
 					<tr>
-						<td class="item-title"> 英语水平：</td>
-						<td class="item-content"> CET-6(431) </td>
-						<td class="item-title"> <strong>求职意向：</strong> </td>
-						<td class="item-content"> <strong> C/C++研发 </strong> </td>
-					</tr>
-					<tr>
-						<td class="item-title"> Github: </td>
-						<td class="item-content" colspan="1">
+						<td > 英语水平：</td>
+						<td > CET-6(431) </td>
+						<td > Github: </td>
+						<td >
 							<a title="请看我的github" href="https://github.com/ywang2014?tab=repositories" target="_blank"> https://github.com/ywang2014 </a>
 						</td>
-						<td> </td>	
-						<td> </td>
+					</tr>
+					<tr>
+						<td class="item-title"> <strong>求职意向：</strong> </td>
+						<td class="item-content" colspan = 3> <strong> 技术研发(C++) </strong> </td>
 					</tr>
 				</table>
 			</section>
 			
-			<section style="margin:10px 0px; height:8px; border-bottom:solid 2px #888;"></section>
 			<section class="item-wrap">
-				<section class="item-box-left">
-					<span class="item-title-hl"> <h3> 专业素养 </h3> </span>
-				</section>
-			
-				<section class="item-box-right">
-					<ul>
-						<li> 热爱 C、C++ 开发 </li>
-						<li> 热爱数据结构和算法 </li>
-						<li> 熟悉 PHP Web开发 </li>
-						<li> 熟悉 Java </li>
-						<li> 了解 Python、R语言、matlab </li>          
-						<li> 了解大数据，数据挖掘基本算法 </li>
-						<li> 了解基本Linux内核知识 </li>
-						<li> 了解常用 SQL 语句 </li>
-					</ul>
-				</section>
-				<section>
-					<span class="item-title-hl"> <h3> 主要课程 </h3> </span>
-					&nbsp; 计算机网络<br>
-					&nbsp; 计算机图形学<br>
-					&nbsp; 矩阵分析与应用<br>
-					&nbsp; 模式识别<br>
-					&nbsp; 人工智能<br>
-					&nbsp; 不确定性人工智能<br>
-					&nbsp; 数据挖掘<br>
-					&nbsp; 大数据处理<br>
-					&nbsp; 计算机体系结构<br>
-					&nbsp; 操作系统高级教程<br>
-					&nbsp; 开源编译器源代码分析<br>
-					&nbsp; 多处理器系统编程<br>
-					&nbsp; <a href = "https://github.com/ywang2014/ywang2014.github.com"> 
-						<strong> 自学书单列表 </strong> </a>
-				</section>
-			</section>
-			
-			<section class="item-wrap">
-				<section class="item-box-left">       
-					<span class="item-title-hl"> <h3> 教育经历 </h3> </span>
-				</section>
-				<section class="item-box-right" style="margin-bottom:10px;">
-					<table>
-						<tr>
-							<td style="width:300px;"> 2014.09 -- 2017.07 </td>
-							<td style="width:250px;"> 中国科学院大学 </td>
+				<div id = "topic">
+					<span style = "font-size: 16pt; font-weight: bold;"> 教育背景 </span>
+					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+					<table id = "tab">
+						<tr> 
+							<td id = "t"> 2014.09 -- 2017.06 </td>
+							<td> 中国科学院大学 </td>
 							<td> 计算机技术 </td>
+							<td> 硕士 </td>
+						</tr>
+						<tr> 
+							<td id = "t"> 2010.09 -- 2014.07 </td>
+							<td> 上海海事大学 </td>
+							<td> 机械电子工程 </td>
+							<td> 本科 </td>
+						</tr>
+						<tr> 
+							<td id = "t" colspan = 4> <span id = "title"> 获奖经历 </span> </td>
 						</tr>
 						<tr>
-							<td style="width:300px;"> 2010.09 -- 2014.07 </td>
-							<td style="width:250px;"> 上海海事大学 </td>
-							<td> 机械电子工程 </td>
+							<td id = "t2" colspan = 4>
+								<li> 中国科学大学二等奖学金 </li>
+								<li> 上海海事大学一等奖学金 </li>
+								<li> 全国(非物理类)物理竞赛一等奖(2011.12) </li>
+							</td>
 						</tr>
 					</table>
-				</section>
-			</section>
-			
-			<section class="item-wrap">
-				<section class="item-box-left">
-					<span class="item-title-hl"> <h3> 项目经验 </h3> </span>
-				</section>
-				<section class="item-box-right">
-					<section>
-						<table style="margin-bottom:15px; border-bottom:dashed 1px #ccc;">
+				</div>
+				
+				<div id = "topic">
+					<span style = "font-size: 16pt; font-weight: bold;"> 专业技能 </span>
+					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+					<table id = "tab">
+						<tr> 
+							<td id = "t">
+								<li> 热爱 C、C++ 开发 </li>
+								<li> 数据结构和算法基础扎实 </li>
+								<li> 熟悉 PHP Web开发：smarty </li>
+								<li> 熟悉 Java：spring boot、activeMQ</li>
+								<li> 了解 Python(pandas matlibplot)、R语言、matlab </li>          
+								<li> 了解 mysql基本操作 </li>
+								<li> 了解 ajax、angularjs </li>
+								<li> 了解基本Linux基础知识 </li>
+							</td>
+							<td >
+								<div> 
+									<a title="点击查看详细的书单列表" href = "https://github.com/ywang2014/Rookie#book"> 
+										<span id = "title"> 已看书单 </span> </a>
+								</div>
+								<li id = "t">
+									<a href = "https://github.com/ywang2014/"> 
+										《代码大全》
+									</a>
+								</li>
+								<li id = "t">
+									<a href = "https://github.com/ywang2014/"> 
+										《C++程序设计语言》
+									</a>
+								</li>
+								<li id = "t">
+									<a href = "https://github.com/ywang2014/"> 
+										《C语言程序设计》
+									</a>
+								</li>
+								<li id = "t">
+									<a href = "https://github.com/ywang2014/"> 
+										《C专家编程》
+									</a>
+								</li>
+								<li id = "t">
+									<a href = "https://github.com/ywang2014/"> 
+										《编程珠玑》
+									</a>
+								</li>
+								<li id = "t">
+									<a href = "https://github.com/ywang2014/"> 
+										《Effective C++》
+									</a>
+								</li>	
+								&nbsp;&nbsp;&nbsp;...
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+				<div id = "topic">
+					<span style = "font-size: 16pt; font-weight: bold;"> 实习经历(远景能源) </span>
+					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+						<table id = "tab2">
 							<tr>
-								<td class="project-sub-title" width = "100" valign="top"> 项目描述: </td>
-								<td class="item-content"> 五子棋人机对战游戏 </td>
+								<td id = "title" colspan = 2> 格林评价体系 </td>
 							</tr>
 							<tr>
-								<td class="project-sub-title" valign="top">使用技术:</td>
-								<td class="item-content"> C、C++、 α-β剪枝算法</td>
+								<td id = "tit">项目描述:</td>
+								<td >
+									主要完成格林项目下的评价体系中的指标计算可视化部分工作，根据风机评价指标的定义，从Ocean中的风机数据中，抽取有用数据，画出有关指标的散点图或曲线。
+									<br>
+									项目难点：进行数据清洗，过滤，分类，从而拿到画图所需要的数据。生成连续的时间序列，生成连续的颜色列表等。
+								</td>
 							</tr>
 							<tr>
-								<td class="project-sub-title" valign="top">项目收获:</td>
-								<td class="item-content">
-									学习C++语言的实际应用，和简单游戏开发方法，深刻理解面向对象编程，理解什么是封装、继承、多态，
-									虚函数的使用和函数重载、重写，了解基本的 System()函数，学会了小程序的整体程序构建，学会了迭代式软件开发。
+								<td >职责:</td>
+								<td > 参与者，负责其中数据可视化部分 </td>
+							</tr>
+							<tr>
+								<td >技术:</td>
+								<td class="item-content"> python、pandas、matlibplot</td>
+							</tr>
+						</table>
+						<table id = "tab2" style="border-bottom:dashed 0px #ccc;">
+							<tr>
+								<td id = "title" colspan = 2> Algo算法平台 </td>
+							</tr>
+							<tr>
+								<td id = "tit"> 项目描述: </td>
+								<td >
+									主要是一个集成监控平台、算法平台、程序版本自动发布平台等功能的系统，独立于格林项目。其中版本发布功能，将老的项目B/S架构重构为C/S架构，实现用户在浏览器上，通过简单的配置，就可以自动实现新版本的安装。算法平台，主要为用户提供算法服务，用户只需要在前端发送一个JSON串，既可以拿到后台返回的结果。监控平台，监控服务器或程序的运行状态，调用情况等，实时返回状态信息到页面上。
+									<br>
+									难点：Maven依赖管理，MQ之间的通信，JSON串的解析，前后台数据间通信等。
+								</td>
+							</tr>
+							<tr>
+								<td >职责:</td>
+								<td > 参与者，负责Algo算法平台原型开发 </td>
+							</tr>
+							<tr>
+								<td >技术:</td>
+								<td class="item-content"> Java、spring boot、maven、activeMQ、JSON、angularjs、CSS</td>
+							</tr>
+						</table>
+				</div>
+				
+				<div id = "topic">
+					<span style = "font-size: 16pt; font-weight: bold;"> 项目经验 </span>
+					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+						<table id = "tab2">
+							<tr>
+								<td id = "title" colspan = 2> 欧麟物流网站 </td>
+							</tr>
+							<tr>
+								<td id = "tit">项目描述:</td>
+								<td >
+									商业网站的开发，实现了任务需求的发布和签约功能，项目空间管理功能，简单的博客系统，简单的问答系统等功能。功能模块包含有：登录和注册、文件管理、用户图像自定义等。
+									<br> 
+									项目难点很多：比如mysql表的设计，点赞功能的实现，项目签约到项目空间的生成等逻辑实现，写博客或评论时，用户可以上传，并编辑照片等功能当时接触时，感觉功能很复杂，实现难度很大。
+								</td>
+							</tr>
+							<tr>
+								<td >职责:</td>
+								<td > 核心开发者，完成网站架构设计，以及95%的开发工作 </td>
+							</tr>
+							<tr>
+								<td >技术:</td>
+								<td class="item-content"> PHP web开发、smarty、MVC、CSS、JavaScript、mysql、LAMP搭建
 								</td>
 							</tr>
 						</table>
-						<table style="margin-bottom:15px; border-bottom:dashed 1px #ccc;">
+						<table id = "tab2">
 							<tr>
-								<td class="project-sub-title" width = "100" valign="top">项目描述:</td>
-								<td class="item-content"> 电影推荐系统 </td>
+								<td id = "title" colspan = 2> 五子棋人机对战游戏 </td>
 							</tr>
 							<tr>
-								<td class="project-sub-title" valign="top">使用技术:</td>
-								<td class="item-content"> C++、SVD分解、协同过滤、梯度下降
+								<td id = "tit">项目描述:</td>
+								<td >
+									使用C++语言的封装、继承、多态等语言特性，实现五子棋人机对战游戏的开发。整个项目开发有两个难点：一是游戏架构设计，如何设计类，以及处理类之间的关系；二是电脑智能部分实现，如何实现电脑自动走棋的算法。
+									<br>
+									类主要包括了游戏类，棋盘类，棋子类，玩家类，菜单类。棋盘类以棋子类实现的，棋盘的本质是棋子的一个数组；游戏类派生出五子棋游戏类，菜单类派生出五子棋游戏菜单。五子棋游戏类包含有棋盘，玩家，菜单。
+									<br>
+									电脑走棋算法，使用alpha-beta剪枝算法实现的，对棋盘位置根据棋型打分，找到最优走棋方式。
 								</td>
 							</tr>
 							<tr>
-								<td class="project-sub-title" valign="top">项目收获:</td>
-								<td class="item-content">
-									学习了推荐系统开发方法和原理，深刻理解了数据挖掘的基础算法和原理，掌握了协同过滤算法、SVD分解算法实现，
-									梯队下降模拟逼近算法实现<br> 学习了RMSE 误差分析方法
+								<td >职责:</td>
+								<td > 独立完成开发 </td>
+							</tr>
+							<tr>
+								<td >技术:</td>
+								<td > C、C++、 面向对象编程、多态实现、α-β剪枝算法</td>
+							</tr>
+						</table>
+						<table id = "tab2">
+							<tr>
+								<td id = "title" colspan = 2> 电影推荐系统 </td>
+							</tr>
+							<tr>
+								<td id = "tit">项目描述:</td>
+								<td >
+									根据MovieLens的电影打分数据，使用协同过滤算法实现电影推荐系统的开发。系统实现使用的是基于SVD分解的协同过滤算法，完成对在库用户，进行电影推荐的任务。项目难点，如何有效优化SVD分解O(n^3)的时间复杂度。
+									<br> 
+									使用梯度下降算法，根据均方根误差(RMSE)分析，进行模拟逼近SVD分解。算法原理，矩阵进行SVD分解，较大的特征值包含信息最多，但是这样的特征值数量少，接近于0的特征值，没有什么信息，数量很多。因此预先设定主要的特征值只要60个，其他特征值都为0，模拟矩阵SVD分解，将算法时间复杂度降低为O(n^2).
+								</td>
+							</tr>
+							<tr>
+								<td >职责:</td>
+								<td > 核心开发者，完成80%的开发工作 </td>
+							</tr>
+							<tr>
+								<td id = "tit">技术:</td>
+								<td class="item-content"> C++、SVD分解、协同过滤算法、梯度下降最优化算法
 								</td>
 							</tr>
 						</table>
-						<table style="margin-bottom:15px; border-bottom:dashed 1px #ccc;">
+						<table id = "tab2" style="border-bottom:dashed 0px #ccc;">
 							<tr>
-								<td class="project-sub-title" width = "100" valign="top">项目描述:</td>
-								<td class="item-content"> 图书馆管理系统 </td>
+								<td id = "title" colspan = 2> 人员管理系统 </td>
 							</tr>
 							<tr>
-								<td class="project-sub-title" valign="top">使用技术:</td>
-								<td class="item-content"> PHP、HTML、js、css、MySQL </td>
-							</tr>
-							<tr>
-								<td class="project-sub-title" valign="top">项目收获:</td>
-								<td class="item-content">
-									学习了PHP语音，SQL基础语句，web网站开发过程。整个项目一步一步的完成，使得我对网站的开发理解越加深刻，对界面设计，访问权限控制，安全检查的使用越加得心应手！
-									<br>数据库表的构建，css/js一起控制样式和动态效果演示等。
-								</td>
-							</tr>
-						</table>
-						<table style="margin-bottom:15px; border-bottom:dashed 0px #ccc;">
-							<tr>
-								<td class="project-sub-title" width = "100" valign="top">项目描述:</td>
-								<td class="item-content"> 人员管理系统 </td>
-							</tr>
-							<tr>
-								<td class="project-sub-title" valign="top">使用技术:</td>
-								<td class="item-content"> Java、HTML、MySQL、工厂开发模式</td>
-							</tr>
-							<tr>
-								<td class="project-sub-title" valign="top">项目收获:</td>
-								<td class="item-content">
+								<td id = "tit">项目描述:</td>
+								<td >
 									学习了java的web开发过程，以及java与mySQL数据库的运用。项目是李兴华老师的课程项目，跟着做的，主要学习Java Web开发的过程和技巧。
 								</td>
 							</tr>
+							<tr>
+								<td >职责:</td>
+								<td > 跟着课程学习的项目 </td>
+							</tr>
+							<tr>
+								<td >技术:</td>
+								<td class="item-content"> Java web开发、mysql、工厂模式
+								</td>
+							</tr>
 						</table>
-					</section>
-				</section>
+				</div>
+				
+				
 			</section>
 			
 			<section class="item-wrap">
-				<section class="item-box-left">
-					<span class="item-title-hl"> <h3> MOOC学习 </h3> </span>
-				</section>
-				<section class="item-box-right">
-					<section>
-						<table style="margin-bottom:15px; border-bottom:dashed 1px #ccc;">
+				<div id = "topic">
+					<span style = "font-size: 16pt; font-weight: bold;"> MOOC学习 </span>
+					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+						<table id = "tab2">
 							<tr>
 								<td class="project-sub-title" width = "100" valign="top">课程I:</td>
-								<td class="item-content"> TsingHua 算法设计 </td>
+								<td id = "title"> TsingHua 算法设计 </td>
 							</tr>
 							<tr>
 								<td class="project-sub-title" valign="top">学习语言:</td>
@@ -221,10 +346,10 @@
 								</td>
 							</tr>
 						</table>
-						<table style="margin-bottom:15px; border-bottom:dashed 0px #ccc;">
+						<table id = "tab2" style="border-bottom:dashed 0px #ccc;">
 							<tr>
 								<td class="project-sub-title" width = "100" valign="top">课程II:</td>
-								<td class="item-content"> Johns Hopkins 数据科学 </td>
+								<td id = "title"> Johns Hopkins 数据科学 </td>
 							</tr>
 							<tr>
 								<td class="project-sub-title" valign="top">学习语言:</td>
@@ -237,21 +362,17 @@
 								</td>
 							</tr>
 						</table>
-					</section>
-				</section>
+				</div>
 			</section>
 			
-			<section class="item-wrap">
-				<section class="item-box-left">
-					<span class="item-title-hl"> <h3> 自我评价 </h3> </span>
-				</section>
-				<section class="item-box-right" style="margin-bottom:15px; border-bottom:dashed 0px #ccc;">
-					<ul>
-						<li> 阳光乐观，兴趣爱好广泛，乐于助人，乐于交朋友 </li>
-						<li> 对技术非常感兴趣，热爱编程，喜欢钻研技术原理，喜欢挑战 </li>
-						<li> 逻辑推理能力较好，算法基础扎实 </li>
-					</ul>
-				</section>
+			<section >
+				<div id = "topic">
+					<span style = "font-size: 16pt; font-weight: bold;"> 自我评价 </span>
+					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+					<p>
+						&nbsp;&nbsp;&nbsp;爱技术、爱挑战 
+					</p>
+				</div>
 			</section>
 		
 			<aside id="wrap" style="position:fixed; bottom:100px; right:100px;display:none; opacity:0.5;">
@@ -260,33 +381,5 @@
 				<section class="shadow"></section>
 			</aside>
 		</article>
- 
-		<script type="text/javascript">
-		$(function(){
-			$('#wrap').on('click', function(event) {
-				var obj=document.body.scrollTop>0? document.body:document.documentElement;
-				$(obj).animate({"scrollTop":0}, 1000);
-				$(this).animate({"opacity":0.5}, 1000);
-				}).on('mouseover', function(event) {
-					$(this).css('opacity',1);
-					}).on('mouseout',function(event) {
-						$(this).css('opacity',0.5);
-						});
-			});
-					
-		$(document).scroll(function(event) {
-			var goTop=$('#wrap');
-			var scrollTop=document.body.scrollTop || document.documentElement.scrollTop || 0;
-			if(scrollTop>0){
-				if(goTop.css('display')=='none'){
-					$('#wrap').fadeIn(500);
-					} 
-				}else{
-					if(goTop.css('display')!='none'){
-						$('#wrap').fadeOut(500);
-						}
-					}
-			});
-		</script>
 	</body>
 </html>
