@@ -43,6 +43,11 @@
 			}
 			
 			#t{
+				padding-left: 35px;
+				list-style-type:none;
+			}
+			
+			#t1{
 				padding-left: 50px;
 			}
 			
@@ -52,168 +57,160 @@
 			
 			#bg{
 				margin:0px auto;
-				width:700px;
+				padding: 20px;
+				width: 700px;
 				/*background: url(images/bg1.jpeg) no-repeat;*/
 				/*background-size: cover;*/
-				background-color: #eeeeee;
-				
+				background-color: #fffeee;
+				border:1px solid #eeeeee;
 			}
+			
+			body{
+				margin:0px;
+				padding: 0px;
+			}
+			
+			#msg_based{
+				margin: 0px auto;
+				width: 50%;
+				font-weight: bold;
+			}
+			
+			.head{
+				font-size: 32pt; 
+				color: #000000; 
+				background-color: 
+				transparent; 
+				font-weight: bold; 
+				font-style: normal; 
+				text-decoration: none; 
+				line-height: 1.15;
+			}
+			
 			
 		</style>
 	</head>
 
-	<body id = "bg">
+	<body >
 <!--	<div id="Layer1" style="position:absolute; left:0px; top:0px; width:100%; height:100%">  
 			<img src="bg1.gif" width="100%" height="100%"/>  
 		</div> -->
-		<header align = "center">
-			<span style="font-size: 32pt; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; line-height: 1.15;">
-				王勇 
-			</span>
-			<!--	
-				<h1 style="color:#e8e8e8; font-size: 48px; font-weight:bold; text-align:center; text-shadow: 2px 2px 2px #333, 0px 0px 5px #666; margin-top:15px;"> 王勇 </h1>
-			-->
-				<hr/>
-		</header>
+		<div id = "bg">
+			<header align = "center">
+				<span class = "head" >
+					王勇 
+				</span>
+				<!--	
+					<h1 style="color:#e8e8e8; font-size: 48px; font-weight:bold; text-align:center; text-shadow: 2px 2px 2px #333, 0px 0px 5px #666; margin-top:15px;"> 王勇 </h1>
+				-->
+			</header>
 		
-		<article style="padding:10px 0px;">
-			<section>
-				<table id = "tab">
-					<tr>
-						<td class="item-title"> 电话：</td>
-						<td class="item-content"> (+86)185-5207-8917 </td>
-						<td class="item-title"> 邮箱：</td>
-						<td class="item-content">
-							<a title="给我发邮件吧" href= "mailto: ywangsh2011@163.com" > ywangsh2011@163.com </a>
-						</td>
-					</tr>
-					<tr>
-						<td class="item-title"> 出生年月：</td>
-						<td class="item-content"> 1991-12 </td>
-						<td class="item-title"> 婚姻状况：</td>
-						<td class="item-content"> 未婚 </td>
-					</tr>
-					
-					<tr>
-						<td > 英语水平：</td>
-						<td > CET-6(431) </td>
-						<td > Github: </td>
-						<td >
-							<a title="请看我的github" href="https://github.com/ywang2014?tab=repositories" target="_blank"> https://github.com/ywang2014 </a>
-						</td>
-					</tr>
-					<tr>
-						<td class="item-title"> <strong>求职意向：</strong> </td>
-						<td class="item-content" colspan = 3> <strong> 技术研发(C++) </strong> </td>
-					</tr>
-				</table>
-			</section>
-			
-			<section class="item-wrap">
-				<div id = "topic">
-					<span style = "font-size: 16pt; font-weight: bold;"> 教育背景 </span>
-					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+			<article style="padding:10px 0px;">
+				<section>
+					<div id = "msg_based">
 					<table id = "tab">
-						<tr> 
-							<td id = "t"> 2014.09 -- 2017.06 </td>
-							<td> 中国科学院大学 </td>
-							<td> 计算机技术 </td>
-							<td> 硕士 </td>
-						</tr>
-						<tr> 
-							<td id = "t"> 2010.09 -- 2014.07 </td>
-							<td> 上海海事大学 </td>
-							<td> 机械电子工程 </td>
-							<td> 本科 </td>
-						</tr>
-						<tr> 
-							<td id = "t" colspan = 4> <span id = "title"> 获奖经历 </span> </td>
+						<tr>
+							<td class="item-title"> Email </td>
+							<td class="item-content">
+								<a title="给我发邮件吧" href= "mailto: ywangsh2011@163.com" > ywangsh2011@163.com </a>
+							</td>
 						</tr>
 						<tr>
-							<td id = "t2" colspan = 4>
-								<li> 中国科学大学二等奖学金 </li>
-								<li> 上海海事大学一等奖学金 </li>
-								<li> 全国(非物理类)物理竞赛一等奖(2011.12) </li>
-							</td>
-						</tr>
-					</table>
-				</div>
-				
-				<div id = "topic">
-					<span style = "font-size: 16pt; font-weight: bold;"> 专业技能 </span>
-					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
-					<table id = "tab">
-						<tr> 
-							<td id = "t">
-								<li> 热爱 C、C++ 开发 </li>
-								<li> 数据结构和算法基础扎实 </li>
-								<li> 熟悉 PHP Web开发：smarty </li>
-								<li> 熟悉 Java：spring boot、activeMQ</li>
-								<li> 熟悉 Python: pandas matplotlib</li>
-								<li> 了解 R语言、matlab </li>          
-								<li> 了解 mysql基本操作 </li>
-								<li> 了解 ajax、angularjs </li>
-								<li> 了解基本Linux基础知识 </li>
-							</td>
+							<td > Github </td>
 							<td >
-								<div> 
-									<a title="点击查看详细的书单列表" href = "https://github.com/ywang2014/Rookie#book"> 
-										<span id = "title"> 已看书单 </span> </a>
-								</div>
-								<li id = "t">
-									<a href = "https://github.com/ywang2014/"> 
-										《代码大全》
-									</a>
-								</li>
-								<li id = "t">
-									<a href = "https://github.com/ywang2014/"> 
-										《C++程序设计语言》
-									</a>
-								</li>
-								<li id = "t">
-									<a href = "https://github.com/ywang2014/"> 
-										《C语言程序设计》
-									</a>
-								</li>
-								<li id = "t">
-									<a href = "https://github.com/ywang2014/"> 
-										《C专家编程》
-									</a>
-								</li>
-								<li id = "t">
-									<a href = "https://github.com/ywang2014/"> 
-										《编程珠玑》
-									</a>
-								</li>
-								<li id = "t">
-									<a href = "https://github.com/ywang2014/"> 
-										《Effective C++》
-									</a>
-								</li>	
-								&nbsp;&nbsp;&nbsp;...
+								<a title="请看我的github" href="https://github.com/ywang2014?tab=repositories" target="_blank"> https://github.com/ywang2014 </a>
 							</td>
 						</tr>
+						<tr>
+							<td class="item-title"> Objective </td>
+							<td class="item-content" colspan = 3>  C/C++技术研发 </td>
+						</tr>
 					</table>
-				</div>
+					</div>
+				</section>
+			
+				<section class="item-wrap">
+					<div id = "topic">
+						<span style = "font-size: 16pt; font-weight: bold;"> 专业技能 </span>
+						<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+						<table id = "tab">
+							<tr> 
+								<td id = "t1">
+									<li> <strong>热爱 C、C++ 开发 </strong></li>
+									<li> <strong>数据结构和算法基础扎实 </strong></li>
+									<li> 熟悉 PHP Web开发：smarty </li>
+									<li> 熟悉 Java：spring boot、activeMQ</li>
+									<li> 熟悉 Python: pandas matplotlib</li>
+									<li> 了解 R语言、matlab </li>          
+									<li> 了解 mysql基本操作 </li>
+									<li> 了解 ajax、angularjs </li>
+									<li> 了解 css、html </li>
+									<li> 了解基本Linux基础知识 </li>
+								</td>
+								<td >
+									<div> 
+										<a title="点击查看详细的书单列表" href = "https://github.com/ywang2014/Rookie#book" target="_blank"> 
+											<span id = "title"> 已看书单 </span> </a>
+									</div>
+									<li id = "t">
+										<a href = "https://github.com/ywang2014/Rookie/tree/master/Src/code_complete" target="_blank"> 
+											《代码大全》
+										</a>
+									</li>
+									<li id = "t">
+										<a href = "https://github.com/ywang2014/Rookie/tree/master/Src/the_cpp_programming_language" target="_blank"> 
+											《C++程序设计语言》
+										</a>
+									</li>
+									<li id = "t">
+										<a href = "https://github.com/ywang2014/Rookie/tree/master/Src/c_programming_language" target="_blank"> 
+											《C语言程序设计》
+										</a>
+									</li>
+									<li id = "t">
+										<a href = "https://github.com/ywang2014/Rookie/tree/master/Src/expert_c" target="_blank"> 
+											《C专家编程》
+										</a>
+									</li>
+									<li id = "t">
+										<a href = "https://github.com/ywang2014/Rookie/tree/master/Src/ProgrammingPearls" target="_blank"> 
+											《编程珠玑》
+										</a>
+									</li>
+									<li id = "t">
+										<a href = "https://github.com/ywang2014/Rookie/tree/master/Src/effective_cpp" target="_blank"> 
+											《Effective C++》
+										</a>
+									</li>
+									<li id = "t">
+										<a href = "https://github.com/ywang2014/ProgramLearning/tree/master/java/Algorithms" target="_blank"> 
+											《算法》
+										</a>
+									</li>									
+									&nbsp;&nbsp;&nbsp;...
+								</td>
+							</tr>
+						</table>
+					</div>
 				
-				<div id = "topic">
-					<span style = "font-size: 16pt; font-weight: bold;"> 实习经历(远景能源) </span>
-					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+					<div id = "topic">
+						<span style = "font-size: 16pt; font-weight: bold;"> 实习经历(远景能源) </span>
+						<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
 						<table id = "tab2">
 							<tr>
-								<td id = "title" colspan = 2> 格林评价体系 </td>
+								<td id = "title" colspan = 2> Greenwich </td>
 							</tr>
 							<tr>
 								<td id = "tit">项目描述:</td>
 								<td >
-									主要完成格林项目中的评价体系部分的指标计算可视化工作，根据风机评价指标的标准，从Ocean的风机数据中，获取数据，然后进行数据处理，画出有关指标的散点图或曲线。
+									主要完成格林项目中，评价体系部分cube的KPI指标可视化工作，根据风机评价指标的算法，从Ocean风机数据中，下载数据，然后进行数据处理，画出有关指标的散点图和曲线图。
 									<br>
-									项目难点：进行数据解析、清洗、过滤、拟合等。技巧：生成连续的时间序列，生成连续的颜色列表。
+									难点：进行数据解析、清洗、拟合等。技巧：生成连续的时间序列，生成连续的颜色列表。
 								</td>
 							</tr>
 							<tr>
 								<td >职责:</td>
-								<td > 参与者，负责cube数据可视化 </td>
+								<td > 参与者，负责数据可视化 </td>
 							</tr>
 							<tr>
 								<td >技术:</td>
@@ -222,30 +219,30 @@
 						</table>
 						<table id = "tab2" style="border-bottom:dashed 0px #ccc;">
 							<tr>
-								<td id = "title" colspan = 2> Algo算法平台 </td>
+								<td id = "title" colspan = 2> Dolphin平台 </td>
 							</tr>
 							<tr>
 								<td id = "tit"> 项目描述: </td>
 								<td >
-									Algo算法平台是一个集成监控系统、算法平台、版本发布平台等功能的系统，独立于格林项目。其中版本发布功能，将原项目的C/S结构重构为扩展性更好的B/S结构，实现用户在浏览器上，通过简单的配置，就可以实现监控系统版本的更新和启动。算法平台，主要为用户提供许多独立的算法服务，用户只需要在前端页面上，给出输入和选择特定的算法，后台自动运行指定的算法，返回其结果到前端页面上。监控系统，监控服务器或某些程序的运行状态，调用情况等，实时返回运行状态信息到前端页面上。
+									Dolphin平台是一个集成监控系统、算法平台、版本发布平台等功能的系统，独立于格林项目。其中版本发布功能，将原项目的C/S结构重构为扩展性更好的B/S结构，实现用户在浏览器上，通过简单的配置，就可以实现监控系统版本的更新和启动。算法平台，主要为用户提供许多独立的算法服务，用户只需要在前端页面上，给出输入和选择特定的算法，后台自动运行指定的算法，返回其结果到前端页面上。监控系统，监控服务器或某些程序的运行状态，调用情况等，实时返回运行状态信息到前端页面上。
 									<br>
-									难点：Maven依赖管理配置，MQ之间的通信协议，JSON串的拼装和解析，前后台数据间通信，前端页面局部刷新，轮询机制等。
+									难点：MQ之间的通信协议，JSON串的拼装和解析，任务调度，前后台数据间通信，前端页面局部刷新，轮询机制等。
 								</td>
 							</tr>
 							<tr>
 								<td >职责:</td>
-								<td > 参与者，负责Algo算法平台原型开发 </td>
+								<td > 参与者，负责dolphin平台原型开发 </td>
 							</tr>
 							<tr>
 								<td >技术:</td>
-								<td class="item-content"> Java、spring boot、maven、activeMQ、JSON、angularjs、CSS</td>
+								<td class="item-content"> Java、spring boot、maven、activeMQ、JSON、angularjs、bootstrap、Mergely</td>
 							</tr>
 						</table>
-				</div>
+					</div>
 				
-				<div id = "topic">
-					<span style = "font-size: 16pt; font-weight: bold;"> 项目经验 </span>
-					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+					<div id = "topic">
+						<span style = "font-size: 16pt; font-weight: bold;"> 项目经验 </span>
+						<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
 						<table id = "tab2">
 							<tr>
 								<td id = "title" colspan = 2> 欧麟物流网站 </td>
@@ -253,14 +250,14 @@
 							<tr>
 								<td id = "tit">项目描述:</td>
 								<td >
-									商业网站的开发，实现了任务需求的发布和签约功能，项目空间管理功能，简单的博客系统，简单的问答系统等功能。功能模块包含有：登录和注册、文件管理、用户图像自定义等。
+									商业网站的开发，实现了任务需求的发布和签约功能，项目空间管理功能，简单的博客系统，简单的问答系统等功能。功能模块包含有：登录和注册、文件管理、用户图像自定义，点赞功能，验证码功能等。
 									<br> 
 									项目难点很多：比如mysql表的设计，点赞功能的实现，项目签约到项目空间的生成等逻辑实现，写博客或评论时，用户可以上传，并编辑照片等功能。
 								</td>
 							</tr>
 							<tr>
 								<td >职责:</td>
-								<td > 核心开发者，完成网站架构设计，以及95%的开发工作 </td>
+								<td > 项目开发负责人，完成全部的后台开发，网站架构设计，80%的前端页面实现工作 </td>
 							</tr>
 							<tr>
 								<td >技术:</td>
@@ -333,67 +330,66 @@
 								</td>
 							</tr>
 						</table>
-				</div>
-				
-				
-			</section>
+					</div>
+				</section>
 			
-			<section class="item-wrap">
-				<div id = "topic">
-					<span style = "font-size: 16pt; font-weight: bold;"> MOOC学习 </span>
-					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
-						<table id = "tab2">
-							<tr>
-								<td class="project-sub-title" width = "100" valign="top">课程I:</td>
-								<td id = "title"> TsingHua 算法设计 </td>
-							</tr>
-							<tr>
-								<td class="project-sub-title" valign="top">学习语言:</td>
-								<td class="item-content"> C、C++、algorithm </td>
-							</tr>
-							<tr>             
-								<td class="project-sub-title" valign="top">学习成果:</td>
-								<td class="item-content">
-									顺利完成mooc课程，算法编程能力显著提高，了解了(scanf/cin、printf/cout)输入输出的巨大区别，学会了如何自己扩大buffer，提高输入输出速度
-									<br>
-									学习了一遍林锐博士的《高质量C++/C编程指南》一书，对 C 语音的理解更加深刻！
-								</td>
-							</tr>
-						</table>
-						<table id = "tab2" style="border-bottom:dashed 0px #ccc;">
-							<tr>
-								<td class="project-sub-title" width = "100" valign="top">课程II:</td>
-								<td id = "title"> Johns Hopkins 数据科学 </td>
-							</tr>
-							<tr>
-								<td class="project-sub-title" valign="top">学习语言:</td>
-								<td class="item-content"> R、数据处理 </td>
-							</tr>
-							<tr>             
-								<td class="project-sub-title" valign="top">学习成果:</td>
-								<td class="item-content">
-									顺利完成mooc课程，学习了R语言的基础语法和应用，知道了数据处理的基本方法。
-								</td>
-							</tr>
-						</table>
-				</div>
-			</section>
+				<section class="item-wrap">
+					<div id = "topic">
+						<span style = "font-size: 16pt; font-weight: bold;"> MOOC学习 </span>
+						<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+							<table id = "tab2">
+								<tr>
+									<td class="project-sub-title" width = "100" valign="top">课程I:</td>
+									<td id = "title"> TsingHua 算法设计 </td>
+								</tr>
+								<tr>
+									<td class="project-sub-title" valign="top">学习语言:</td>
+									<td class="item-content"> C、C++、algorithm </td>
+								</tr>
+								<tr>             
+									<td class="project-sub-title" valign="top">学习成果:</td>
+									<td class="item-content">
+										顺利完成mooc课程，算法编程能力显著提高，了解了(scanf/cin、printf/cout)输入输出的巨大区别，学会了如何自己扩大buffer，提高输入输出速度
+										<br>
+										学习了一遍林锐博士的《高质量C++/C编程指南》一书，对 C 语音的理解更加深刻！
+									</td>
+								</tr>
+							</table>
+							<table id = "tab2" style="border-bottom:dashed 0px #ccc;">
+								<tr>
+									<td class="project-sub-title" width = "100" valign="top">课程II:</td>
+									<td id = "title"> Johns Hopkins 数据科学 </td>
+								</tr>
+								<tr>
+									<td class="project-sub-title" valign="top">学习语言:</td>
+									<td class="item-content"> R、数据处理 </td>
+								</tr>
+								<tr>             
+									<td class="project-sub-title" valign="top">学习成果:</td>
+									<td class="item-content">
+										顺利完成mooc课程，学习了R语言的基础语法和应用，知道了数据处理的基本方法。
+									</td>
+								</tr>
+							</table>
+					</div>
+				</section>
 			
-			<section >
-				<div id = "topic">
-					<span style = "font-size: 16pt; font-weight: bold;"> 自我评价 </span>
-					<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
-					<p>
-						&nbsp;&nbsp;&nbsp;爱技术、爱挑战 
-					</p>
-				</div>
-			</section>
+				<section >
+					<div id = "topic">
+						<span style = "font-size: 16pt; font-weight: bold;"> 自我评价 </span>
+						<div style="margin:0px 0px 5px 0px; height:1px; border-bottom:dashed 1px #888;"> </div>
+						<p>
+							&nbsp;&nbsp;&nbsp;爱编程、爱挑战 
+						</p>
+					</div>
+				</section>
 		
-			<aside id="wrap" style="position:fixed; bottom:100px; right:100px;display:none; opacity:0.5;">
-				<section style="background-image:url(images/icons/top.png); width:32px;height:32px;"></section>
-				<section class="reflect"></section>
-				<section class="shadow"></section>
-			</aside>
-		</article>
+				<aside id="wrap" style="position:fixed; bottom:100px; right:100px;display:none; opacity:0.5;">
+					<section style="background-image:url(images/icons/top.png); width:32px;height:32px;"></section>
+					<section class="reflect"></section>
+					<section class="shadow"></section>
+				</aside>
+			</article>
+		</div>
 	</body>
 </html>
