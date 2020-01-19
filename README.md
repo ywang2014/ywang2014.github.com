@@ -1,10 +1,10 @@
 | 基础信息 | 专业技能 | 兴趣爱好 |
 | :-----| :---- | :---- |
-| 手机：18552078917 | Java/C/C++/python | 篮球 |
-| 微信：wy1071512072 | Redis/kafka/mybatis |跑步|
-| Email：ywangsh2011@163.com | thrift/dubbo |游泳|
-| 期望职位：Java研发 | springBoot/springCloud | |
-| 期望城市：上海、杭州 | MySQL |  |
+| 手机：18552078917 | Java / C / C++ / python | 篮球、跑步、游泳 |
+| 微信：wy1071512072 | Redis / kafka / mybatis / MySQL |
+| Email：ywangsh2011@163.com | thrift / dubbo |
+| 期望职位：Java研发 | springBoot / springCloud | 
+| 期望城市：上海、杭州 | 多线程 / 分布式 / 事物机制 /  |  
 
 [个人简历](http://ywang2014.github.io/ "请看我的详细简历")
   
