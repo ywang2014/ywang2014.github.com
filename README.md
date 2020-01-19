@@ -4,8 +4,6 @@
 	**期望职位：Java研发**      期望城市：上海、杭州 
 
 [个人简历](http://ywang2014.github.io/ "请看我的详细简历")
-
-<font color=#0000FF size=24 >Markdwon测试</font>
   
 #### 阅读的书籍
   [《C语音程序设计(2th)》]()Brian W. Kernighan & Dennis M. Ritchie
